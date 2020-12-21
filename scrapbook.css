@@ -1,0 +1,41 @@
+#postboard {margin-top:20px}
+
+
+.post 		{margin:0 10px 25px; }	
+
+#postboard .post	  {width:220px;float: left;}
+#postboard .post.col1 {width:220px;}
+#postboard .post.col2 {width:460px;}
+#postboard .post.col3 {width:700px;}		
+#postboard .post.col4 {width:940px;}		
+	
+#postboard .post h2		{font-size:1.4em;padding:0;border-bottom:2px dotted #ddd}		
+#postboard .post h2	a	{background:#fff;padding:0 5px 2px 0;position:relative;top:5px;}		
+#postboard .post p		{font-size:1.1em;padding:0 0 4px;line-height:1.4em}		
+
+#postboard .post 	  img	{width:220px;height:auto}
+#postboard .post.col2 img	{width:460px;height:auto}
+#postboard .post.col3 img	{width:700px;height:auto}
+#postboard .post.col4 img	{width:940px;height:auto}
+
+	/*   .post iframe			{width:500px}*/
+#postboard .post.col1 iframe	{width:220px}
+#postboard .post.col2 iframe 	{width:460px}
+#postboard .post.col3 iframe	{width:700px}
+	
+#postboard .post.quote {background:#DFEFFF;padding:20px 20px 20px 20px;width:420px;
+						box-shadow: 5px 5px 0 #CFD7F8,
+									4px 4px 0 #CFD7F8,
+									3px 3px 0 #CFD7F8,
+									2px 2px 0 #CFD7F8,
+									1px 1px 0 #CFD7F8}	
+			
+			
+#postboard .post.quote h2	{border:none;padding-bottom:5px;font-size:220%;font-family:georgia}	
+#postboard .post.quote p	{color:#888;font-size:200%;padding-bottom:0px;font-family:georgia}	
+	.quote  cite{font-style:italic}
+	
+	
+	
+#postboard .post img {padding: 0px;border: 0px;margin: 0 0 5px;	
+	

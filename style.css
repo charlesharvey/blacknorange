@@ -1,0 +1,219 @@
+/*
+Theme Name: Black n Orange
+Theme URI: http://charles-harvey.co.uk
+Description: Black n Orange
+Version: 1
+Author: Charles
+Author URI: http://charles-harvey.co.uk
+Tags: science
+*/
+html, body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, label, fieldset, input, p, blockquote, th, td { margin:0; padding:0 }
+table { border-collapse:collapse; border-spacing:0 }
+fieldset, img { border:0 }
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal }
+ol, ul, li { list-style:none }
+caption, th { text-align:left }
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal }
+q:before, q:after { content:''}
+
+/* Global reset-RESET */
+/* The below restores some sensible defaults */
+strong { font-weight: bold }
+em { font-style: italic }
+a img { border:none } 
+.aligncenter { display:block; margin:0 auto;padding:4px;}
+.post .alignleft { float:left; margin: 0 20px 10px 00px;}
+.post .alignright { float:right; margin:0 00px 10px 15px}
+.post .alignright img {margin:0;border:0;padding:0}
+.post .wp-caption p {padding:  3px 5px 10px;text-align:right;font-size:1.1em}
+.post .aligncenter {margin:auto}
+.post .wp-caption img {margin-bottom:0}
+body{ background:#fff; font:normal 62.5% 'Ubuntu', Tahoma, 'Lucida Sans','Lucida Grande','Lucida Sans Unicode', sans-serif;color:#4c5156;}
+
+
+.outline {background:url("images/page-outline.png") repeat top;height:15px}
+
+/*TYPOGRAPHY*/
+
+h1 {font-size:  2.9em ;font-family:georgia}
+h2 {font-size:  2.1em ;padding:10px 0 0;}
+.post h2 a, .post h2 {color:#444;}
+h3 {font-size:1.6em;padding:0 0 20px}
+.post h3 {padding-bottom:0}
+p {font-size:1.75em;padding:0 0 20px;line-height:1.7em;max-width:600px}
+.post ul, .post ol {margin:0 20px 15px}
+.post ul li {list-style:disc}
+li {font-size:1.4em;padding:0 0 5px}
+li p , li li{font-size:1em}
+a {text-decoration:none;color:#f76e23}
+.post a:hover {border-bottom:1px solid #f76e23}
+
+.wrap .wp-caption a:hover {border-bottom:0}
+
+.clear {clear:both}
+.wrap{width:960px;margin:auto}
+
+
+#header {background:#414141;height:55px;box-shadow:1px 1px 4px #bbb;position:relative;z-index:100;overflow:hidden}
+
+
+
+ul#nav li {display:inline;list-style:none;padding:0}
+ul#nav li a {height:15px;text-transform:uppercase;font-weight:bold;color:#fff;padding:20px 15px 20px;display:block;float:left;font-size:1.2em;text-shadow:1px 1px 1px #000}
+
+ul#nav li.home a {display:block;float:left;text-indent:-9999px;background:url("images/charles-harvey.png") 49px 7px no-repeat ; margin:0;width:300px;height:55px;padding:0;background-color:#ff9c00}
+
+ul#nav li.subscribe a {color:#fc9}
+
+/*
+ul#nav li a {display:block;height:55px;float:left;background:url("images/sprite.png") no-repeat;text-indent:-9999px;padding:0 20px;}	
+	ul#nav li.home a {display:block;background:url("images/sprite.png") 48px 4px no-repeat ; margin:0;display:block;width:300px;height:55px;text-indent:-9999px;float:left;padding:0;background-color:#ff9c00}
+	ul#nav li.blog a {width:44px;background-position: -250px 7px}
+	ul#nav li.about a {width:47px;background-position: -339px 7px}
+	ul#nav li.photography a {width:98px;background-position: -420px 7px}	
+	ul#nav li.contact a {width:59px;background-position: -556px 7px}
+	ul#nav li.archives a {width:62px;background-position: -650px 7px}
+	ul#nav li.subscribe a {width:64px;background-position: -756px 7px}
+*/
+
+
+ul#nav li a:hover {background-color:#555}
+ul#nav li.home a:hover {background-color:#ffb400}
+
+ul#nav h2 {padding:0;margin:0}
+
+	
+#main {width:620px;float:right }	
+
+
+.post {position:relative;margin:20px 0 40px;}
+.post h1 {padding:10px 0 20px;}
+.post h2 {padding:10px 0 10px}
+.meta {color: #8D8C8C;font: italic 1.1em Georgia ;}
+.meta a, .meta span {font-style:normal;color:#444}
+.post a.thumba {border:0;display:block;margin-bottom:20px}
+.post a.thumba img {margin-bottom:0px;width:600px;height:auto;}
+
+.post  img {padding:9px; border:solid 1px #cdcdcd;margin:0 0 20px}
+
+.post p {padding:0 0 20px}
+.post p.readmore a, a.more-link {display: block;width: 110px;height: 33px;background: url("images/readmore.png") no-repeat bottom;text-indent: -9999px;}
+.post p.readmore a:hover, a.more-link:hover {background-position: top;border: 0;}
+
+#abc .post p.readmore {margin:-5px 0 -25px /*width:100px;position:relative;top:-46px;right:1px*/}
+
+
+.attachment-100x100 {float:left;margin:0 10px 20px 0;padding:5px;border:1px solid #999;background:#fff;height:100px;width:100px}
+.post img.attachment-80x80 {float:left;margin:0 10px 74px 0;padding:5px; border:1px solid #999;width:95px;height:95px}
+
+#postlinks {margin:15px 0 ;padding:15px 0;  border-bottom:1px dotted #a8a8E8;border-top:1px dotted #a8a8E8;font-weight:bold;text-align:center }
+#postlinks a {padding:0 5px}
+
+#googa {margin:-31px  0 10px; border-bottom:1px dotted #a8a8E8;padding:5px 0; }
+
+
+/*SIDEBAR*/
+
+
+#sidebar{width:260px;float:left;background:url("images/sidebar.png") repeat-x bottom #f1f1f1;padding:30px 20px 40px;font-size:95% }	
+#sidebar li.widget {margin: 0 0 30px}
+#sidebar h3 {padding-bottom:10px}
+#recentposts li {overflow:hidden;height:70px;font-size:1.4em;color:#666}
+#recentposts span {display:block;font-size:80%;margin-top:5px}
+#recentposts img {padding:4px;background:#fff;border:solid 1px #cdcdcd;float:left;width:50px;margin:0 10px 0 0}
+
+
+li.popular-posts ul li {overflow:hidden;height:70px;color:#666}
+li.popular-posts ul li img {padding:4px;background:#fff;border:solid 1px #cdcdcd;float:left;width:50px;margin:0 10px 0 0;height:50px}
+li.popular-posts ul li span.post-stats {display:block;font-size:80%;margin-top:5px;font-weight:normal;font-family:georgia}
+li.twitter-item {padding:0 0 15px}
+div.tagcloud {text-align:justify}
+#sidebar  a {color:#2c3136}
+
+#searchform {}
+#s {padding:5px;}
+#s:focus {}
+#searchform label {}
+
+#subscribewidget a {background:url("images/subscribe.png") no-repeat;height:50px;display:block;padding:4px  0 0 50px ;}
+
+/*FOOTER */
+
+#footer {clear:both;margin:20px;width:200px}
+.footerhome {float: right;position: relative;text-align: right;top: -68px;}
+#footer p a {color:#4c5156}
+
+
+/*COMMENTS*/
+
+ol.commentol li {list-style:none;padding: 15px 10px 0 0 ;border-bottom:1px dotted #a8a8E8;}
+ol.commentol img {padding:3px;border:1px solid #999;background:#fff;}
+ol.commentol p img {padding:1px;border:0}
+ol.commentol cite {font-weight:bold;font-size:1.2em}
+p#userdata  input {float:left;display:block;width:200px}
+p#userdata  label {float:left;display:block;width:75px}
+.commentdate {font-size:1em;color:#444}
+div.commentbody {float:right;width:550px;}
+
+.comment-author cite {margin:-36px 0 18px 47px;display:block}
+.comment-author .says {display:none}
+.commentmetadata {margin:-20px 0 10px 47px;font-size:0.9em;color:#444}
+
+li.pingback .comment-author cite, li.pingback .commentmetadata  {margin:0 0 10px}
+li.pingback p {display:none}
+
+/*CONTACT*/
+
+input {padding:3px 5px;margin:0 5px 0 0}
+textarea {height:100px;width:560px;padding:3px}
+
+
+/*ABOUT*/
+ul.social {float:left;width:150px;}
+ul.social li  {list-style: none;padding: 0 25px 10px;background: url("images/facebook.png") no-repeat top left;display:block}
+ul.social li a:hover {text-decoration:none}
+
+ul.social li.facebook  {background-image:url("images/facebook.png"); }
+ul.social li.reddit  {background-image:url("images/reddit.png"); }
+ul.social li.lastfm  {background-image:url("images/lastfm.png"); }
+ul.social li.twitter  {background-image:url("images/twitter.png");}
+ul.social li.mail  {background-image:url("images/mail.png");}
+ul.social li.flickr {background-image:url("images/flickr.png");}
+ul.social li.youtube {background-image:url("http://charles-harvey.co.uk/wp-content/uploads/2011/06/youtube.png");}
+ul.social li.linkedin {background-image:url("http://charles-harvey.co.uk/wp-content/uploads/2011/08/linkedin.png");}
+
+
+/*PAGINATE*/
+#main .wp-paginate {margin: 5px 0 30px;}
+#main .wp-paginate .title {    background: url("images/pages.png") no-repeat scroll 8px 2px transparent;display: block;float: left;height: 17px;margin: 0 10px;text-indent: -9999px;width: 54px;}
+#main .wp-paginate .current {background:#f76e23;border: 1px solid #cf4d06;}
+#main .wp-paginate a {background:#eee}
+#main .wp-paginate a:hover {background:#ff8746;color:#fff}
+
+img#wpstats { display: none;}
+
+/*FLICKR*/
+ul#flickrphotos {margin:0;padding:0}
+ul#flickrphotos li {list-style:none;display:inline-block;padding:9px;border:1px solid #cdcdcd;width:140px;height:140px;overflow:hidden;margin:0 10px 20px}
+
+ul#flickrphotos a { display: block; height: 140px; overflow: hidden;width: 140px;}		
+ul#flickrphotos img {border:0;padding:0;margin:0;position:relative;left:-10px;top:-10px}
+
+/*ARCHIVES*/
+
+#smart-archives-list h2, #catcontainer h2 {background:none;padding:10px;font-size:1.7em}
+#smart-archives-list li {color: #8D8C8C;font: italic 1.1em Georgia;}
+#smart-archives-list li  a {color: #F76E23;font: normal 1.11em Tahoma, 'Lucida Sans','Lucida Grande','Lucida Sans Unicode', sans-serif;}
+#smart-archives-list li a.catlink {font-style:italic;color:#555}
+
+
+@media only screen and (max-width: 500px) {
+    .wrap {width:auto}
+    #main {float:none;width:auto;padding:0 30px 10px}
+    #sidebar {float:none;width:auto;padding:30px}
+    textarea {width:100%}
+}
+
+
+
+
